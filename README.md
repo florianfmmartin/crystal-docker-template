@@ -8,7 +8,10 @@ Run `make docker-build` to build the Docker image
 
 ## Usage
 
-Run `make docker-run` to enter the Docker image, followed by `make build` to build the app with `shards` and finally `make run` to run the binary.
+Run:
+- `make docker-run` to enter the Docker image,
+- `make build` to build the app with `shards`
+- `make run` to run the binary.
 
 ## Contributing
 
