@@ -1,0 +1,13 @@
+name: docker-template
+version: 0.1.0
+
+authors:
+  - florianfmmartin <florian.fm.martin@gmail.com>
+
+targets:
+  app:
+    main: src/app.cr
+
+crystal: 1.3.2
+
+license: MIT
