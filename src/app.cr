@@ -2,5 +2,12 @@
 module App
   VERSION = "0.1.0"
 
-  # TODO: Put your code here
+  def main
+    puts "Hello, world!"
+  end
 end
+
+include App
+
+main
+
