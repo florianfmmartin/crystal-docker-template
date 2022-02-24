@@ -1,18 +1,14 @@
-# docker-template
+# crystal-docker-template
 
-TODO: Write a description here
+A template to start a Crystal project in a Docker, so you worry less about setup and more about your code 
 
 ## Installation
 
-TODO: Write installation instructions here
+Run `make docker-build` to build the Docker image
 
 ## Usage
 
-TODO: Write usage instructions here
-
-## Development
-
-TODO: Write development instructions here
+Run `make docker-run` to enter the Docker image, followed by `make build` to build the app with `shards` and finally `make run` to run the binary.
 
 ## Contributing
 
